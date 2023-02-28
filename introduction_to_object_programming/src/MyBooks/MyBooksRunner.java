@@ -3,15 +3,22 @@ package MyBooks;
 public class MyBooksRunner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		BookClass ArtOfComputerProgramming = new BookClass();
-		BookClass EffectiveJava = new BookClass();
-		BookClass CleanCode = new BookClass();
 
+		BookClass ArtOfComputerProgramming = new BookClass(1000);
+		BookClass EffectiveJava = new BookClass(1000);
+		BookClass CleanCode = new BookClass(50);
+
+		ArtOfComputerProgramming.test();
+		EffectiveJava.test();
 		CleanCode.test();
 
-		CleanCode.setNoOfCopies(60);
+		CleanCode.stockAviability();
 
+		CleanCode.decreaseStock(89);
+		CleanCode.stockAviability();
+
+		CleanCode.increaseStock(94);
+		CleanCode.stockAviability();
 	}
 
 }
