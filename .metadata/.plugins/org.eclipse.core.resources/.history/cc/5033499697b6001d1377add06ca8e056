@@ -1,0 +1,7 @@
+package ClassesDelTutorial;
+
+public class MultiplicationTable {
+	for(int i =1;1<=10;i++){		
+		
+	}	
+}

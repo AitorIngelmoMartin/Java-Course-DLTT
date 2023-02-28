@@ -1,0 +1,7 @@
+package MyBooks;
+
+public class BookClass {
+	void test() {
+		System.out.println("the test method works!");
+	}
+}

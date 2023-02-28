@@ -1,0 +1,12 @@
+package MyFirstObjects;
+
+public class MotorBike {
+
+	// State
+	short speed;
+
+	void start() {
+		System.out.println("Bike started.");
+	}
+
+}

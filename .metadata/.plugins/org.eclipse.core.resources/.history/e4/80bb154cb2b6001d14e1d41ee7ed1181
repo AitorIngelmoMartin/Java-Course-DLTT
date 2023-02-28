@@ -1,0 +1,14 @@
+package MyFirstObjects;
+
+public class MotorBike {
+
+	// State
+	private short speed; // Al ser privada, solo puedo aceder a ella desde aqui.
+
+	// Behaviour
+
+	void start() {
+		System.out.println("Bike started.");
+	}
+
+}

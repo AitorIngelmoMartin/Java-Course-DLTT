@@ -1,0 +1,26 @@
+package ClassesDelTutorial;
+
+public class MultiplicationTable {
+	void print(int table) {
+		print(table, 1, 10);
+	}
+
+	void print(int table, int from, int to) {
+
+		if (to >= from) {
+			for (int i = from; i <= to; i++) {
+				System.out.printf("%d * %d = %d", table, i, table * i).println();
+			}
+		} else {
+			// Condicional para funcionar aunque to<From.
+			// Lo que hace es intrcambiar el orden via aux.
+			int aux = to;
+			to = from;
+			from = aux;
+			for (int i = from; i <= to; i++) {
+				System.out.printf("%d * %d = %d", table, i, table * i).println();
+			}
+
+		}
+	}
+}

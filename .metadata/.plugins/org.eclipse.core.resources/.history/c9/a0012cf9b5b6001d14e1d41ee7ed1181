@@ -1,0 +1,20 @@
+package MyFirstObjects;
+
+public class MotorBike {
+
+	// State
+	private int speed; // Al ser privada, solo puedo aceder a ella
+							// desde aqui.
+
+	// Behaviour
+
+	void setSpeed(int speed) {
+		this.speed = speed;
+
+	}
+
+	void start() {
+		System.out.println("Bike started.");
+	}
+
+}
