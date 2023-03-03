@@ -5,4 +5,6 @@
     <fullyQualifiedTypeName name="loopsTest.whileLoopClass"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.math.RoundingMode"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="banckApplicationProyect.usuario"/>
 </qualifiedTypeNameHistroy>

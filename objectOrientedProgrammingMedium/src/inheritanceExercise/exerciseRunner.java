@@ -1,4 +1,4 @@
-package personExercise;
+package inheritanceExercise;
 
 public class exerciseRunner {
 

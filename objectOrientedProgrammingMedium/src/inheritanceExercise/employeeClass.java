@@ -1,4 +1,4 @@
-package personExercise;
+package inheritanceExercise;
 
 import java.math.BigDecimal;
 
